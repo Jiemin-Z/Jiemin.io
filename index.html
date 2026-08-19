@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homepage</title>
+<style>
+.right-top {
+    height: 5%;
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    margin-top: 5px;
+    
+}
+.right-bottom {
+    height: 95%;
+}
+.contact {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(91, 239, 11);
+    border-radius: 8px;
+    border: 2px solid bisque;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 2px 5px 2px;
+    cursor: pointer;
+    
+
+
+}
+.About {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(242, 215, 7);
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: sans-serif;
+    padding: 4px 1px 4px 1px;
+    border-radius: 8px;
+    border: 2px solid bisque;
+    cursor: pointer;
+}
+
+.article {
+    width: 100%;
+    height: 25%;
+    border-bottom:2px solid rgb(204, 204, 204);
+    box-sizing:border-box;
+    
+}
+.Homepage {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.Journal {
+    width: 60%;
+    height: 100%;
+    border-left: 2px solid rgb(204, 204, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+body {
+    display: flex;
+    background-color: rgb(245,240,230);
+}
+.left {
+    display: flex;
+    width: 45%;
+    height: 100%;
+    border-right: 2px solid rgb(204, 204, 204);
+}
+.right {
+    width: 55%;
+    height: 100%;
+    margin-left: 80px;
+    margin-right: 120px;
+    
+    
+}
+</style>
+</head>
+
+<body>
+    <div class="left">
+        <div class="Homepage">Homepage</div>
+        <div class="Journal">Journal</div>
+    </div>
+    <div class="right">
+        <div class="right-top">
+            <button class="About" onclick="window.location.href='About.html'">About</button>
+            <button class="contact" onclick="window.location.href='contact.html'">contact</button>
+        </div>
+        <div class="right-bottom">
+        <div class="article">
+            <h3>article1</h3>
+            <p> I am writing it ^^</p>
+
+        </div>
+        <div class="article">article2</div>
+        <div class="article">article3</div>
+        <div class="article">article4</div>
+        </div>
+        
+    </div>
+</body>
+</html>
