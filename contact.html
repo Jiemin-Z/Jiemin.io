@@ -6,15 +6,23 @@
             body{
                 background-color: rgb(245,240,230);
             }
-            .contact-info {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                
+            .contact-info input,
+            .contact-info textarea {
+                width: 100%;
+
             }
-            button {
+            .contact-info button {
+                width: 100%;
                 cursor: pointer;
             }
+            .contact-info {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                
+                
+            }
+            
         </style>
     </head>
     <body>
@@ -27,13 +35,16 @@
         </ul>
         <hr>
         <div class="contact-info">
-        <input type="text" placeholder="your name">
+        <form action="https://formspree.io/f/xljralka" method="POST">
+        <input type="text" name="name" placeholder="your name">
         <br><br>
-        <input type="text" placeholder="your email">
+        <input type="text" name="email" placeholder="your email">
         <br><br>
-        <textarea placeholder="your message" cols="30" rows="10"></textarea>
+        <textarea name="message" placeholder="your message" cols="30" rows="10"></textarea>
         <br><br>
-        <button>Send Message</button>
+        <button type="submit">Send Message</button>
+        </form>
+        
         </div>
         
         <hr>
