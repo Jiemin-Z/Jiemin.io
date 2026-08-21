@@ -1,0 +1,38 @@
+# About
+
+I'm Jiemin.
+
+I want to get really good at going from &nbsp;**0 to 1**.
+
+Starting with nothing but an idea, and turning it into something real - a product, a user, and hopefully a business.
+
+So I'm running an experiment.
+
+## 12 Months. 12 Startups.
+
+For the next 12 months, I'll build one startup every month.
+
+The inspiration comes from Pieter Levels' famous  &nbsp;**12 Startups in 12 Months**&nbsp; experiment, but this is my own attempt to answer a question:
+
+**How fast can I go from 0 to 1 - and can I actually build something that works?**
+
+I'll start from scratch every month. 
+
+
+Find an idea.
+Build it.
+Launch it.
+Find users.
+Try to make money.
+
+If it works, I'll keep going.
+
+If it doesn't, I'll move on and take the lessons with me.
+
+I'll document the entire journey here - the ideas, the builds, the launches, the numbers, the failures, and the occasional win.
+
+I'm not expecting all 12 startups to succeed.
+
+I'm hoping that by the end of the year, I'll have become much better at building things from nothing — and maybe, just maybe, I'll have found a business worth going all in on.
+
+**Start from 0. Build fast. Find out.**
