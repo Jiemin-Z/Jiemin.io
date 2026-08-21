@@ -7,7 +7,10 @@
     
 }
 .right-bottom {
-    height: 95%;
+    width: 100%;
+    height: 25%;
+    border-bottom:2px solid rgb(204, 204, 204);
+    box-sizing:border-box;
 }
 .contact {
     width: 150px;
@@ -39,13 +42,6 @@
     cursor: pointer;
 }
 
-.article {
-    width: 100%;
-    height: 25%;
-    border-bottom:2px solid rgb(204, 204, 204);
-    box-sizing:border-box;
-    
-}
 .Homepage {
     width: 40%;
     height: 100%;
